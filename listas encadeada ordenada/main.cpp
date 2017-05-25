@@ -196,7 +196,6 @@ int main()
 					aux = inicio;
 				}
 				cout<<"Lista esvaziada";
-
 			}
 		}
 		getch ();
