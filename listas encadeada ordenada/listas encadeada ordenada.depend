@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1495649129 source:c:\users\lucas\downloads\listas encadeada nao ordenada\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<iostream>
+
