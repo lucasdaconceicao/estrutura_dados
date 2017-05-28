@@ -65,7 +65,7 @@ class List:
 
 
 def menu():
-    print "MENU DE OPÇÕES"
+    print "MENU DE OPCOES"
     print "1 = Inserir na lista."
     print "2 = Consultar toda a lista."
     print "3 = Sair\n"
@@ -85,14 +85,14 @@ if __name__ == "__main__":
     while op != 3:
         menu()
 
-        op = int(input("Digite sua opção: "))
+        op = int(input("Digite sua opcao: "))
         if op < 1 or op > 5:
             cls()
-            print "Operação inválida!\n"
+            print "Operação invalida!\n"
 
         elif op == 1:
             cls()
-            num = int(input("Entre com o número desejado: "))
+            num = int(input("Entre com o numero desejado: "))
             list_.add(num)
 
         elif op == 2:
