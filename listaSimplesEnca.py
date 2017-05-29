@@ -88,7 +88,7 @@ if __name__ == "__main__":
         op = int(input("Digite sua opcao: "))
         if op < 1 or op > 5:
             cls()
-            print "Operação invalida!\n"
+            print "Operacao invalida!\n"
 
         elif op == 1:
             cls()
