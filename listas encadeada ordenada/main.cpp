@@ -40,7 +40,7 @@ int main()
 		cout<<"\n - Digite sua opcao: ";
 		cin>>op;
 		if (op<1||op>5)
-			cout<<"Opção invalida!!";
+			cout<<"Opcao invalida!!";
 		if (op==1)
 		{
 			cout<<"Digite o numero a ser inserido na lista: ";
@@ -170,11 +170,11 @@ int main()
 					}
 				}
 				if (achou == 0)
-					cout<<"Número não encontrado";
+					cout<<"Numero nao encontrado";
 				else if (achou == 1)
-					cout<<"Número removido 1 vez";
+					cout<<"Numero removido 1 vez";
 					else
-					cout<<"Número removido "<<achou<<"vezes";
+					cout<<"Numero removido "<<achou<<"vezes";
 			}
 		}
 		if (op == 4)
